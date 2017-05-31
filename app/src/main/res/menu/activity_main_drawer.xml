@@ -3,34 +3,33 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:id="@+id/home"
+            android:title="প্রচ্ছদ" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/country"
+            android:title="সারাদেশ" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:id="@+id/politics"
+            android:title="রাজনীতি" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:id="@+id/courtsoflaw"
+            android:title="আইন আদালত" />
+        <item android:title="অর্থনীতি"
+            android:id="@+id/economics" />
+        <item android:title="আন্তর্জাতিক"
+            android:id="@+id/international" />
+        <item android:title="খেলাধুলা"
+            android:id="@+id/sports" />
+        <item android:title="বিনোদন"
+            android:id="@+id/entertainment" />
+        <item android:title="লাইফস্টাইল"
+            android:id="@+id/lifestyle" />
+        <item android:title="তথ্যপ্রযুক্তি"
+            android:id="@+id/informationtechnology" />
+        <item android:title="চট্টগ্রাম"
+            android:id="@+id/chittagong" />
+        <item android:title="অন্যান্য"
+            android:id="@+id/others" />
     </group>
-
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
-        </menu>
-    </item>
 
 </menu>

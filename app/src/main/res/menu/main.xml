@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
     <item
         android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+        android:title="@string/action_settings" />
+    <item android:title="Help"
+        android:id="@+id/help" />
+    <item android:title="Rate this app"
+        android:id="@+id/ratethisapp" />
+    <item android:title="Send Feedback"
+        android:id="@+id/sendfeedback" />
+
+    <item android:title="About Developer"
+        android:id="@+id/aboutdeveloper" />
 </menu>
